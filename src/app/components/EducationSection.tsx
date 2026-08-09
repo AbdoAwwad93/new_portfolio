@@ -29,61 +29,124 @@ export default function EducationSection() {
           <h3 className="mb-6 text-center text-lg font-semibold">{t("edu.certs")}</h3>
           <div className="mx-auto mb-16 grid max-w-3xl gap-4 sm:grid-cols-2 lg:grid-cols-4">
             
-            <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-6 text-center">
-              <span className="flex size-11 items-center justify-center rounded-full border border-border bg-background"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-certificate size-5">
+            <a 
+              href="https://www.freecodecamp.org/certification/Abdulrahman_Awwad/foundational-c-sharp-with-microsoft" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="relative transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-6 text-center hover:border-foreground/30 hover:shadow-md cursor-pointer group"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="absolute top-3.5 end-3.5 size-4 text-muted-foreground opacity-60 transition-all group-hover:opacity-100 group-hover:text-foreground group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
+                <path d="M12 6h6v6"></path>
+                <path d="M11 13l7 -7"></path>
+                <path d="M18 13v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h6"></path>
+              </svg>
+              <span className="flex size-11 items-center justify-center rounded-full border border-border bg-background group-hover:border-foreground/30 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-certificate size-5">
                   <path d="M12 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
                   <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5"></path>
                   <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73"></path>
                   <path d="M6 9l12 0"></path>
                   <path d="M6 12l3 0"></path>
-                  <path d="M6 15l2 0"></path></svg></span>
+                  <path d="M6 15l2 0"></path>
+                </svg>
+              </span>
               <div>
-                <p className="text-sm font-semibold" dir="ltr">Foundational C#</p>
+                <p className="text-sm font-semibold group-hover:text-primary transition-colors" dir="ltr">
+                  Foundational C#
+                </p>
                 <p className="mt-1 text-xs text-muted-foreground">Microsoft</p>
               </div>
-            </div>
+            </a>
             
-            <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-6 text-center" style={{"transitionDelay":"50ms"}}>
-              <span className="flex size-11 items-center justify-center rounded-full border border-border bg-background"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-certificate size-5">
+            <a 
+              href="https://drive.google.com/file/d/1Bp8yspG-WFlb2NArWshJxX21SKEME61A/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="relative transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-6 text-center hover:border-foreground/30 hover:shadow-md cursor-pointer group" 
+              style={{"transitionDelay":"50ms"}}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="absolute top-3.5 end-3.5 size-4 text-muted-foreground opacity-60 transition-all group-hover:opacity-100 group-hover:text-foreground group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
+                <path d="M12 6h6v6"></path>
+                <path d="M11 13l7 -7"></path>
+                <path d="M18 13v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h6"></path>
+              </svg>
+              <span className="flex size-11 items-center justify-center rounded-full border border-border bg-background group-hover:border-foreground/30 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-certificate size-5">
                   <path d="M12 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
                   <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5"></path>
                   <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73"></path>
                   <path d="M6 9l12 0"></path>
                   <path d="M6 12l3 0"></path>
-                  <path d="M6 15l2 0"></path></svg></span>
+                  <path d="M6 15l2 0"></path>
+                </svg>
+              </span>
               <div>
-                <p className="text-sm font-semibold" dir="ltr">Database Fundamentals</p>
-                <p className="mt-1 text-xs text-muted-foreground">{t("edu.cert.approved")}</p>
+                <p className="text-sm font-semibold group-hover:text-primary transition-colors" dir="ltr">
+                  Database Fundamentals
+                </p>
+                <p className="mt-1 text-xs text-muted-foreground">Mahara Tech</p>
               </div>
-            </div>
+            </a>
             
-            <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-6 text-center" style={{"transitionDelay":"100ms"}}>
-              <span className="flex size-11 items-center justify-center rounded-full border border-border bg-background"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-certificate size-5">
+            <a 
+              href="https://drive.google.com/file/d/1u7DXZADnrxqy2uqeRpjbGN6Lut6aT_wf/view?usp=drive_link" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="relative transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-6 text-center hover:border-foreground/30 hover:shadow-md cursor-pointer group" 
+              style={{"transitionDelay":"100ms"}}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="absolute top-3.5 end-3.5 size-4 text-muted-foreground opacity-60 transition-all group-hover:opacity-100 group-hover:text-foreground group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
+                <path d="M12 6h6v6"></path>
+                <path d="M11 13l7 -7"></path>
+                <path d="M18 13v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h6"></path>
+              </svg>
+              <span className="flex size-11 items-center justify-center rounded-full border border-border bg-background group-hover:border-foreground/30 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-certificate size-5">
                   <path d="M12 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
                   <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5"></path>
                   <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73"></path>
                   <path d="M6 9l12 0"></path>
                   <path d="M6 12l3 0"></path>
-                  <path d="M6 15l2 0"></path></svg></span>
+                  <path d="M6 15l2 0"></path>
+                </svg>
+              </span>
               <div>
-                <p className="text-sm font-semibold" dir="ltr">Cloud and Virtualization</p>
-                <p className="mt-1 text-xs text-muted-foreground">{t("edu.cert.approved")}</p>
+                <p className="text-sm font-semibold group-hover:text-primary transition-colors" dir="ltr">
+                  Cloud and Virtualization Concepts
+                </p>
+                <p className="mt-1 text-xs text-muted-foreground">Mahara Tech</p>
               </div>
-            </div>
+            </a>
             
-            <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-6 text-center" style={{"transitionDelay":"150ms"}}>
-              <span className="flex size-11 items-center justify-center rounded-full border border-border bg-background"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-certificate size-5">
+            <a 
+              href="https://drive.google.com/file/d/12S64d4RWwQtESOru8c9Z9TBZNsjQ3FAl/view?usp=drive_link" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="relative transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col items-center gap-3 rounded-2xl border border-border bg-card p-6 text-center hover:border-foreground/30 hover:shadow-md cursor-pointer group" 
+              style={{"transitionDelay":"150ms"}}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="absolute top-3.5 end-3.5 size-4 text-muted-foreground opacity-60 transition-all group-hover:opacity-100 group-hover:text-foreground group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
+                <path d="M12 6h6v6"></path>
+                <path d="M11 13l7 -7"></path>
+                <path d="M18 13v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h6"></path>
+              </svg>
+              <span className="flex size-11 items-center justify-center rounded-full border border-border bg-background group-hover:border-foreground/30 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-certificate size-5">
                   <path d="M12 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
                   <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5"></path>
                   <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73"></path>
                   <path d="M6 9l12 0"></path>
                   <path d="M6 12l3 0"></path>
-                  <path d="M6 15l2 0"></path></svg></span>
+                  <path d="M6 15l2 0"></path>
+                </svg>
+              </span>
               <div>
-                <p className="text-sm font-semibold" dir="ltr">Red Hat System Admin</p>
+                <p className="text-sm font-semibold group-hover:text-primary transition-colors" dir="ltr">
+                  Linux Red Hat System Administration I
+                </p>
                 <p className="mt-1 text-xs text-muted-foreground">Red Hat</p>
               </div>
-            </div>
+            </a>
             
           </div>
           
