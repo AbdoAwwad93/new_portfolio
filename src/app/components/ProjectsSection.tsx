@@ -20,7 +20,12 @@ export default function ProjectsSection() {
             
             {/* Project 1: AI Test Agent */}
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col rounded-2xl border border-border bg-card p-6">
-              <h3 className="mb-2 font-semibold">{t("projects.aitest.name")}</h3>
+              <div className="mb-2 flex items-center justify-between">
+                <h3 className="font-semibold">{t("projects.aitest.name")}</h3>
+                <a href="https://github.com/Nomad-AI-Agent/AI-Test-Agent-backend" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="GitHub Repository">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-brand-github size-5"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg>
+                </a>
+              </div>
               <p className="mb-4 flex-1 text-sm text-muted-foreground">
                 {t("projects.aitest.desc")}
               </p>
@@ -31,7 +36,12 @@ export default function ProjectsSection() {
             
             {/* Project 2: Attendo */}
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col rounded-2xl border border-border bg-card p-6" style={{"transitionDelay":"50ms"}}>
-              <h3 className="mb-2 font-semibold">{t("projects.attendo.name")}</h3>
+              <div className="mb-2 flex items-center justify-between">
+                <h3 className="font-semibold">{t("projects.attendo.name")}</h3>
+                <a href="https://github.com/Project-XA/BackEnd" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="GitHub Repository">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-brand-github size-5"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg>
+                </a>
+              </div>
               <p className="mb-4 flex-1 text-sm text-muted-foreground">
                 {t("projects.attendo.desc")}
               </p>
@@ -53,7 +63,12 @@ export default function ProjectsSection() {
             
             {/* Project 4: ASH Translation */}
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col rounded-2xl border border-border bg-card p-6" style={{"transitionDelay":"150ms"}}>
-              <h3 className="mb-2 font-semibold">{t("projects.ash.name")}</h3>
+              <div className="mb-2 flex items-center justify-between">
+                <h3 className="font-semibold">{t("projects.ash.name")}</h3>
+                <a href="https://ash-translation.co.uk/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="Website">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-external-link size-5"><path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"></path><path d="M11 13l9 -9"></path><path d="M15 4h5v5"></path></svg>
+                </a>
+              </div>
               <p className="mb-4 flex-1 text-sm text-muted-foreground">
                 {t("projects.ash.desc")}
               </p>
@@ -64,7 +79,12 @@ export default function ProjectsSection() {
             
             {/* Project 5: QuizRoom */}
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col rounded-2xl border border-border bg-card p-6" style={{"transitionDelay":"200ms"}}>
-              <h3 className="mb-2 font-semibold">{t("projects.quizroom.name")}</h3>
+              <div className="mb-2 flex items-center justify-between">
+                <h3 className="font-semibold">{t("projects.quizroom.name")}</h3>
+                <a href="https://github.com/AbdoAwwad93/QuizRoom-BackEnd " target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="GitHub Repository">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-brand-github size-5"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg>
+                </a>
+              </div>
               <p className="mb-4 flex-1 text-sm text-muted-foreground">
                 {t("projects.quizroom.desc")}
               </p>
@@ -75,7 +95,12 @@ export default function ProjectsSection() {
             
             {/* Project 6: Twitter Clone Web API */}
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col rounded-2xl border border-border bg-card p-6" style={{"transitionDelay":"250ms"}}>
-              <h3 className="mb-2 font-semibold">{t("projects.twitter.name")}</h3>
+              <div className="mb-2 flex items-center justify-between">
+                <h3 className="font-semibold">{t("projects.twitter.name")}</h3>
+                <a href="https://github.com/AbdoAwwad93/Twitter-Clone-API " target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="GitHub Repository">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-brand-github size-5"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg>
+                </a>
+              </div>
               <p className="mb-4 flex-1 text-sm text-muted-foreground">
                 {t("projects.twitter.desc")}
               </p>
