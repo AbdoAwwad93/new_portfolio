@@ -76,13 +76,13 @@ export const translations: Record<string, { ar: string; en: string }> = {
   "edu.volunteer.nasa.title": { ar: "هاكاثون وكالة ناسا لتطبيقات الفضاء", en: "NASA Space Apps Assiut Hackathon" },
   "edu.volunteer.nasa.desc": { ar: "هاكاثون وكالة ناسا لتطبيقات الفضاء بمحافظة أسيوط", en: "NASA Space Apps Challenge – Assiut Governorate" },
   "edu.volunteer.trainer": { ar: "مدرب برمجة", en: "Programming Instructor" },
-  "edu.volunteer.oop.title": { ar: "دورة البرمجة كائنية التوجه – التدريب الصيفي", en: "OOP Instructor – Summer Training Program" },
-  "edu.volunteer.oop.desc": { ar: "قيادة دورات البرمجة كائنية التوجه لتدريب وتوجيه أكثر من 30 طالباً.", en: "Led OOP training sessions, mentoring 30+ students." },
-  "edu.volunteer.mentor": { ar: "موجه C++", en: "C++ Mentor" },
+  "edu.volunteer.oop.title": { ar: "دورة OOP – التدريب الصيفي", en: "OOP Instructor – Summer Training Program" },
+  "edu.volunteer.oop.desc": { ar: "قيادة دورات OOP لتدريب وتوجيه أكثر من 30 طالباً.", en: "Led OOP training sessions, mentoring 30+ students." },
+  "edu.volunteer.mentor": { ar: "مينتور ++C", en: "C++ Mentor" },
   "edu.volunteer.cpp.org": { ar: "اتحاد الطلاب – المخيم الشتوي", en: "Student Union – Winter Camp" },
-  "edu.volunteer.cpp.desc": { 
-    ar: "توجيه الطلاب في برمجة C++ خلال المخيم الشتوي، ومساعدتهم على تعميق فهمهم وتطوير مهاراتهم في حل المشكلات.", 
-    en: "Mentored students in C++ programming during a winter camp, helping them deepen their understanding and enhance their problem-solving skills." 
+  "edu.volunteer.cpp.desc": {
+    ar: "توجيه الطلاب في برمجة ++C خلال المخيم الشتوي، ومساعدتهم على تعميق فهمهم وتطوير مهاراتهم في حل المشكلات.",
+    en: "Mentored students in C++ programming during a winter camp, helping them deepen their understanding and enhance their problem-solving skills."
   },
   "edu.languages.heading": { ar: "اللغات", en: "Languages" },
   "edu.languages.arabic": { ar: "العربية", en: "Arabic" },
@@ -122,6 +122,16 @@ export const translations: Record<string, { ar: string; en: string }> = {
   "projects.twitter.desc": {
     ar: "تصميم وتطوير واجهة برمجة تطبيقات (REST API) تحاكي الميزات الأساسية لمنصة تويتر، بما في ذلك المصادقة، نشر التغريدات، التعليقات، الإعجابات، والمتابعات، مبنية على بنية قواعد بيانات علائقية.",
     en: "Designed and developed a REST API mimicking core Twitter features including authentication, posting tweets, comments, likes, and follows, built on a relational database architecture."
+  },
+  "projects.kitabkhana.name": { ar: "KitabKhana (متجر كتب إلكتروني) – ASP.NET Core MVC", en: "KitabKhana (Online Bookstore) – ASP.NET Core MVC" },
+  "projects.kitabkhana.desc": {
+    ar: "إنشاء محاكاة لمتجر كتب إلكتروني يتضمن تصفح الكتب، عربة التسوق، وعمليات دفع مدعومة بواسطة Stripe. تطبيق مصادقة المستخدمين، سجل المشتريات، واستخدام نمط المستودع (Repository Pattern) مع حقن التبعيات (Dependency Injection) لبناء معمارية قابلة للتوسع.",
+    en: "Created an online bookstore simulation with browsing, cart, and Stripe-powered payments. Implemented user authentication, purchase history, and applied Repository Pattern with Dependency Injection for scalable architecture."
+  },
+  "projects.railroads.name": { ar: "RailRoads & Routes (منصة حجز النقل) – ASP.NET Core MVC", en: "RailRoads & Routes (Transportation Booking Platform) – ASP.NET Core MVC" },
+  "projects.railroads.desc": {
+    ar: "المساهمة في تطوير منصة لحجز رحلات الحافلات والقطارات تشمل جدولة الرحلات، إدارة المركبات والمحطات، والحجز في الوقت الفعلي باستخدام SignalR. تطبيق مصادقة آمنة، سير عمل للحجوزات، وعمليات قاعدة بيانات فعالة باستخدام EF Core.",
+    en: "Contributed to developing a booking platform for buses and trains with trip scheduling, vehicle/station management, and real time booking using SignalR. Implemented secure authentication, booking workflows, and efficient database operations with EF Core."
   },
 
   // Contact
