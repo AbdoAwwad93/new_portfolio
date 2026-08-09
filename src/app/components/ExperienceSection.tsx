@@ -67,7 +67,7 @@ export default function ExperienceSection() {
                     <path d="M8 3v4"></path>
                     <path d="M4 11h16"></path>
                     <path d="M11 15h1"></path>
-                    <path d="M12 15v3"></path></svg>نوفمبر 2025</span>
+                    <path d="M12 15v3"></path></svg>نوفمبر 2025 - ديسمبر 2025</span>
                 </div>
               </div>
               <div aria-hidden="true" className="group-data-[orientation=horizontal]/timeline:-top-6 group-data-[orientation=horizontal]/timeline:-translate-y-1/2 group-data-[orientation=vertical]/timeline:-start-6 group-data-[orientation=vertical]/timeline:-translate-x-1/2 group-data-[orientation=vertical]/timeline:rtl:translate-x-1/2 absolute size-4 rounded-full border-2 border-primary/20 group-data-[orientation=vertical]/timeline:top-0 group-data-[orientation=horizontal]/timeline:start-0 group-data-completed/timeline-item:border-primary" data-slot="timeline-indicator"></div>

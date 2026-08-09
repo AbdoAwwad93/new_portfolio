@@ -13,9 +13,7 @@ export default function SkillsSection() {
             <h3 className="mb-1 text-center text-lg font-semibold">
               الأدوات والمنصات
             </h3>
-            <p className="mx-auto mb-8 max-w-xl text-center text-sm text-muted-foreground">
-              الأدوات التي أعتمد عليها في دورة تطوير البرمجيات واختبارها.
-            </p>
+            <br />
             <div className="flex flex-wrap justify-center gap-x-10 gap-y-6">
               
               <div className="flex flex-col items-center gap-2 text-muted-foreground">
@@ -71,6 +69,43 @@ export default function SkillsSection() {
                 <span className="text-xs font-medium whitespace-nowrap">Playwright</span>
               </div>
               
+              <div className="flex flex-col items-center gap-2 text-muted-foreground">
+                <span className="flex size-12 items-center justify-center rounded-xl border border-border bg-card text-foreground">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-brand-docker size-6">
+                    <path d="M22 12.54c-1.804 -.345 -2.701 -1.08 -3.523 -2.94c-.487 .696 -1.041 1.04 -3.477 1.04h-11.233a1.002 1.002 0 0 0 -.327 .055c-.563 .157 -.93 .701 -.814 1.258c.22 1.053 1.006 2.053 2.37 2.053c.966 0 1.956 -.731 2.502 -1.543c.488 -.005 .985 -.055 1.503 -.055c1.439 0 2.946 .618 3.522 1.638c.552 1.034 1.488 1.644 2.525 1.644c1.688 0 2.82 -1.168 2.82 -2.57c0 -1.155 -.665 -1.986 -1.57 -2.443z"></path>
+                    <path d="M5 10h3v3h-3z"></path>
+                    <path d="M8 10h3v3h-3z"></path>
+                    <path d="M11 10h3v3h-3z"></path>
+                    <path d="M8 7h3v3h-3z"></path>
+                    <path d="M11 7h3v3h-3z"></path>
+                    <path d="M11 4h3v3h-3z"></path>
+                    <path d="M4.571 18c1.5 0 2.047 -.074 2.958 -.78"></path>
+                    <path d="M10 16v.01"></path>
+                  </svg>
+                </span>
+                <span className="text-xs font-medium whitespace-nowrap">Docker</span>
+              </div>
+
+              <div className="flex flex-col items-center gap-2 text-muted-foreground">
+                <span className="flex size-12 items-center justify-center rounded-xl border border-border bg-card text-foreground">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-brand-vscode size-6">
+                    <path d="M16 3v18l4 -2.5v-13z"></path>
+                    <path d="M9.165 13.903l-4.165 3.597l-2 -1l4.333 -4.5m1.735 -1.802l6.932 -7.198v22l-8.15 -7.263"></path>
+                    <path d="M16 16.5l-11 -10l-2 1l13 13.5"></path>
+                  </svg>
+                </span>
+                <span className="text-xs font-medium whitespace-nowrap">VS Code</span>
+              </div>
+              
+              <div className="flex flex-col items-center gap-2 text-muted-foreground">
+                <span className="flex size-12 items-center justify-center rounded-xl border border-border bg-card text-foreground">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-brand-visual-studio size-6">
+                    <path d="M4 8l2 -1l10 13l4 -2v-12l-4 -2l-10 13l-2 -1z"></path>
+                  </svg>
+                </span>
+                <span className="text-xs font-medium whitespace-nowrap">Visual Studio</span>
+              </div>
+              
             </div>
           </div>
           
@@ -118,6 +153,15 @@ export default function SkillsSection() {
               </h3>
               <div className="flex flex-wrap gap-2">
                 <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Design Patterns</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">SOLID Principles</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Object-Oriented Design</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Clean Architecture</span>
+              </div>
+            </div>
+
+            <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 min-w-0 rounded-2xl border border-border bg-card p-6" style={{"transitionDelay":"350ms"}}>
+              <h3 className="mb-4 font-semibold">
+                تطوير واجهات المستخدم (Frontend)
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">HTML</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">CSS</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">JavaScript</span>
               </div>
             </div>
             
