@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Raleway } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./providers";
 import SmoothScroll from "./components/SmoothScroll";
@@ -38,6 +38,12 @@ const thmanyahSans = localFont({
   display: "swap",
 });
 
+const raleway = Raleway({
+  subsets: ["latin"],
+  variable: "--font-raleway",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Abdulrahman - Software Developer",
   description: "Backend Developer specializing in building robust software solutions using .NET, Entity Framework, and RESTful APIs.",
@@ -46,7 +52,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ar" dir="rtl" suppressHydrationWarning>
-      <body className={`${thmanyahSans.className} antialiased`}>
+      <body className={`${thmanyahSans.variable} ${raleway.variable} ${thmanyahSans.className} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
           <SmoothScroll />

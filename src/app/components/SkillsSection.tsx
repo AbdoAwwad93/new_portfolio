@@ -1,17 +1,22 @@
+"use client";
+
+import { useLanguage } from "../i18n/LanguageContext";
+
 export default function SkillsSection() {
+  const { t } = useLanguage();
   return (
     <>
       <section id="skills" className="w-full py-20 sm:py-28">
         <div className="mx-auto w-full max-w-5xl px-4">
           <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 mb-12 text-center">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              المهارات التقنية
+              {t("skills.heading")}
             </h2>
           </div>
           
           <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 mb-16" style={{"transitionDelay":"100ms"}}>
             <h3 className="mb-1 text-center text-lg font-semibold">
-              الأدوات والمنصات
+              {t("skills.tools.heading")}
             </h3>
             <br />
             <div className="flex flex-wrap justify-center gap-x-10 gap-y-6">
@@ -113,7 +118,7 @@ export default function SkillsSection() {
             
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 min-w-0 rounded-2xl border border-border bg-card p-6">
               <h3 className="mb-4 font-semibold">
-                لغات البرمجة
+                {t("skills.languages")}
               </h3>
               <div className="flex flex-wrap gap-2">
                 <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">C#</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Python</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Java</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">GO</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">C++</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">C</span>
@@ -122,7 +127,7 @@ export default function SkillsSection() {
             
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 min-w-0 rounded-2xl border border-border bg-card p-6" style={{"transitionDelay":"70ms"}}>
               <h3 className="mb-4 font-semibold">
-                تقنيات Backend
+                {t("skills.backend")}
               </h3>
               <div className="flex flex-wrap gap-2">
                 <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">ASP.NET Core (MVC & Web API)</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Minimal APIs</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">RESTful APIs</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">JWT</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Django REST Framework</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">FastAPI</span>
@@ -131,7 +136,7 @@ export default function SkillsSection() {
             
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 min-w-0 rounded-2xl border border-border bg-card p-6" style={{"transitionDelay":"140ms"}}>
               <h3 className="mb-4 font-semibold">
-                قواعد البيانات و ORM
+                {t("skills.databases")}
               </h3>
               <div className="flex flex-wrap gap-2">
                 <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">SQL Server</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">PostgreSQL</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">MySQL</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Relational Databases</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Entity Framework Core</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">LINQ</span>
@@ -140,7 +145,7 @@ export default function SkillsSection() {
             
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 min-w-0 rounded-2xl border border-border bg-card p-6" style={{"transitionDelay":"210ms"}}>
               <h3 className="mb-4 font-semibold">
-                أساسيات علوم الحاسب
+                {t("skills.cs")}
               </h3>
               <div className="flex flex-wrap gap-2">
                 <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Data Structures & Algorithms</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">OOP</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Operating Systems</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Networking</span>
@@ -149,7 +154,7 @@ export default function SkillsSection() {
             
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 min-w-0 rounded-2xl border border-border bg-card p-6" style={{"transitionDelay":"280ms"}}>
               <h3 className="mb-4 font-semibold">
-                مبادئ التصميم
+                {t("skills.design")}
               </h3>
               <div className="flex flex-wrap gap-2">
                 <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Design Patterns</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">SOLID Principles</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Object-Oriented Design</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Clean Architecture</span>
@@ -158,7 +163,7 @@ export default function SkillsSection() {
 
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 min-w-0 rounded-2xl border border-border bg-card p-6" style={{"transitionDelay":"350ms"}}>
               <h3 className="mb-4 font-semibold">
-                تطوير واجهات المستخدم (Frontend)
+                {t("skills.frontend")}
               </h3>
               <div className="flex flex-wrap gap-2">
                 <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">HTML</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">CSS</span><span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">JavaScript</span>

@@ -2,10 +2,12 @@
 
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import { useLanguage } from "../i18n/LanguageContext";
 
 export default function ThemeToggle() {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     setMounted(true);
@@ -18,8 +20,8 @@ export default function ThemeToggle() {
         type="button"
         tabIndex={0}
         data-slot="button"
-        aria-label="تبديل المظهر"
-        title="تبديل المظهر"
+        aria-label={t("theme.toggle")}
+        title={t("theme.toggle")}
         className="group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background shadow-xs hover:bg-muted hover:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-9 rounded-full"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-sun size-4">
@@ -37,8 +39,8 @@ export default function ThemeToggle() {
       type="button"
       tabIndex={0}
       data-slot="button"
-      aria-label={isDark ? "الوضع الفاتح" : "الوضع الداكن"}
-      title={isDark ? "الوضع الفاتح" : "الوضع الداكن"}
+      aria-label={isDark ? t("theme.light") : t("theme.dark")}
+      title={isDark ? t("theme.light") : t("theme.dark")}
       onClick={() => setTheme(isDark ? "light" : "dark")}
       className="group/button inline-flex shrink-0 items-center justify-center border bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4 border-border bg-background shadow-xs hover:bg-muted hover:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 size-9 rounded-full"
     >
