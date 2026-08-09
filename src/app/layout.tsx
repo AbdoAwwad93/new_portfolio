@@ -45,8 +45,31 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "Abdulrahman - Software Developer",
+  metadataBase: new URL("https://abdulrhman.awwad.workers.dev"),
+  title: "عبد الرحمن عواد | Software Engineer",
   description: "Backend Developer specializing in building robust software solutions using .NET, Entity Framework, and RESTful APIs.",
+  openGraph: {
+    title: "عبد الرحمن عواد | Software Engineer",
+    description: "Backend Developer specializing in building robust software solutions using .NET, Entity Framework, and RESTful APIs.",
+    url: "https://abdulrhman.awwad.workers.dev",
+    siteName: "Abdulrahman Awwad Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Abdulrahman Awwad - Software Engineer",
+      },
+    ],
+    locale: "ar_SA",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "عبد الرحمن عواد | Software Engineer",
+    description: "Backend Developer specializing in building robust software solutions using .NET, Entity Framework, and RESTful APIs.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
