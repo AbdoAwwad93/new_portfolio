@@ -8,7 +8,7 @@ export default function ProjectsSection() {
               أبرز المشاريع
             </h2>
             <p className="mx-auto mt-3 max-w-2xl text-muted-foreground">
-              مجموعة من التطبيقات والأنظمة التي قمت بتطويرها.
+             مجموعة من التطبيقات والأنظمةالتي قمت بتطويرها.
             </p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2">
