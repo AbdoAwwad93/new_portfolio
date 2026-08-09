@@ -14,7 +14,6 @@ export const translations: Record<string, { ar: string; en: string }> = {
   "theme.toggle": { ar: "تبديل المظهر", en: "Toggle Theme" },
 
   // Home
-  "home.greeting": { ar: "أهلًا وسهلًا، أنا", en: "Hello, I'm" },
   "home.name": { ar: "عبد الرحمن عواد", en: "Abdulrahman Awwad" },
   "home.title": { ar: "مهندس برمجيات", en: "Software Engineer" },
   "home.intro": {

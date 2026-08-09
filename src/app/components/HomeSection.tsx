@@ -13,7 +13,7 @@ export default function HomeSection() {
             <path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path></svg>{t("home.title")}
         </div>
         <div className="hero-intro hero-intro-2">
-          <h1 className="thmanyah-swash text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">{t("home.greeting")}<br /><span className="text-primary">{t("home.name")}</span></h1>
+          <h1 className="thmanyah-swash text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl"><span className="text-primary">{t("home.name")}</span></h1>
         </div>
         <p className="hero-intro hero-intro-3 thmanyah-swash mx-auto mt-6 max-w-2xl text-balance text-lg text-muted-foreground sm:text-xl">
           {t("home.intro")}
