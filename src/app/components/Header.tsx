@@ -20,7 +20,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="sticky top-0 z-50 w-full border-b border-transparent bg-background/90 backdrop-blur-sm transition-colors duration-300 ease-out">
+      <header className="sticky top-0 z-50 w-full border-b border-transparent bg-background/0 backdrop-blur-sm transition-colors duration-300 ease-out">
         <nav className="mx-auto flex h-16 w-full max-w-5xl items-center justify-between px-4">
           <a className="rounded-md px-2 py-1.5 font-semibold tracking-tight hover:bg-muted dark:hover:bg-muted/50" href="/#home">{t("nav.name")}</a>
           <div className="hidden items-center gap-1 lg:flex">

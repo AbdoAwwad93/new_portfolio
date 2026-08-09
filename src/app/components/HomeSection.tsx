@@ -6,14 +6,16 @@ export default function HomeSection() {
   const { t } = useLanguage();
   return (
     <>
-      <section id="home" className="flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center px-4 py-24 text-center">
+      <section id="home" className="relative isolate flex min-h-[calc(100svh-4rem)] w-full overflow-x-clip flex-col items-center justify-center px-4 py-20 text-center">
+        <div className="hero-glow pointer-events-none absolute inset-x-0 top-[-4rem] h-[80svh] w-full bg-[radial-gradient(ellipse_at_top,color-mix(in_srgb,var(--foreground)_15%,transparent),transparent_60%)] blur-[50px] animate-pulse" style={{ animationDuration: "6s" }}></div>
         <div className="hero-intro hero-intro-1 mb-3 inline-flex items-center gap-2 rounded-full border border-border bg-muted/60 px-4 py-1.5 text-sm text-muted-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="tabler-icon tabler-icon-terminal-2 size-4">
             <path d="M8 9l3 3l-3 3"></path>
             <path d="M13 15l3 0"></path>
             <path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path></svg>{t("home.title")}
         </div>
-        <div className="hero-intro hero-intro-2">
-          <h1 className="thmanyah-swash text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl"><span className="text-primary">{t("home.name")}</span></h1>
+        <div className="hero-intro hero-intro-2 relative">
+          <div className="hero-glow hero-glow-soft pointer-events-none absolute inset-x-0 inset-y-0 z-0 rounded-full bg-[radial-gradient(ellipse_at_center,color-mix(in_srgb,var(--foreground)_10%,transparent),transparent,transparent)] blur-[50px] animate-pulse" style={{ animationDuration: "6s" }}></div>
+          <h1 className="thmanyah-swash relative z-10 max-w-4xl mx-auto text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl"><span className="text-primary">{t("home.name")}</span></h1>
         </div>
         <p className="hero-intro hero-intro-3 thmanyah-swash mx-auto mt-6 max-w-2xl text-balance text-lg text-muted-foreground sm:text-xl">
           {t("home.intro")}
