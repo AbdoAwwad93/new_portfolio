@@ -73,9 +73,17 @@ export const translations: Record<string, { ar: string; en: string }> = {
   "edu.cert.approved": { ar: "شهادة معتمدة", en: "Certified" },
   "edu.volunteer.heading": { ar: "التطوع والجوائز", en: "Volunteering & Awards" },
   "edu.volunteer.first": { ar: "المركز الأول", en: "1st Place" },
+  "edu.volunteer.nasa.title": { ar: "هاكاثون وكالة ناسا لتطبيقات الفضاء", en: "NASA Space Apps Assiut Hackathon" },
   "edu.volunteer.nasa.desc": { ar: "هاكاثون وكالة ناسا لتطبيقات الفضاء بمحافظة أسيوط", en: "NASA Space Apps Challenge – Assiut Governorate" },
   "edu.volunteer.trainer": { ar: "مدرب برمجة", en: "Programming Instructor" },
+  "edu.volunteer.oop.title": { ar: "دورة البرمجة كائنية التوجه – التدريب الصيفي", en: "OOP Instructor – Summer Training Program" },
   "edu.volunteer.oop.desc": { ar: "قيادة دورات البرمجة كائنية التوجه لتدريب وتوجيه أكثر من 30 طالباً.", en: "Led OOP training sessions, mentoring 30+ students." },
+  "edu.volunteer.mentor": { ar: "موجه C++", en: "C++ Mentor" },
+  "edu.volunteer.cpp.org": { ar: "اتحاد الطلاب – المخيم الشتوي", en: "Student Union – Winter Camp" },
+  "edu.volunteer.cpp.desc": { 
+    ar: "توجيه الطلاب في برمجة C++ خلال المخيم الشتوي، ومساعدتهم على تعميق فهمهم وتطوير مهاراتهم في حل المشكلات.", 
+    en: "Mentored students in C++ programming during a winter camp, helping them deepen their understanding and enhance their problem-solving skills." 
+  },
   "edu.languages.heading": { ar: "اللغات", en: "Languages" },
   "edu.languages.arabic": { ar: "العربية", en: "Arabic" },
   "edu.languages.arabic.level": { ar: "اللغة الأم", en: "Native" },

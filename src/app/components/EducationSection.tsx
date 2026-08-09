@@ -92,15 +92,22 @@ export default function EducationSection() {
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex items-center gap-3 rounded-2xl border border-border bg-card p-5">
               <span className="text-sm font-semibold text-primary">{t("edu.volunteer.first")}</span>
               <div className="flex flex-col">
-                <span className="text-sm font-medium">NASA Space Apps Assiut Hackathon</span>
+                <span className="text-sm font-medium">{t("edu.volunteer.nasa.title")}</span>
                 <span className="text-xs text-muted-foreground">{t("edu.volunteer.nasa.desc")}</span>
               </div>
             </div>
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex items-center gap-3 rounded-2xl border border-border bg-card p-5" style={{"transitionDelay":"50ms"}}>
               <span className="text-sm font-semibold text-primary">{t("edu.volunteer.trainer")}</span>
               <div className="flex flex-col">
-                <span className="text-sm font-medium">OOP Instructor – Summer Training Program</span>
+                <span className="text-sm font-medium">{t("edu.volunteer.oop.title")}</span>
                 <span className="text-xs text-muted-foreground">{t("edu.volunteer.oop.desc")}</span>
+              </div>
+            </div>
+            <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex items-center gap-3 rounded-2xl border border-border bg-card p-5" style={{"transitionDelay":"100ms"}}>
+              <span className="text-sm font-semibold text-primary">{t("edu.volunteer.mentor")}</span>
+              <div className="flex flex-col">
+                <span className="text-sm font-medium">{t("edu.volunteer.cpp.org")}</span>
+                <span className="text-xs text-muted-foreground">{t("edu.volunteer.cpp.desc")}</span>
               </div>
             </div>
           </div>
