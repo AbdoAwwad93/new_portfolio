@@ -74,6 +74,10 @@ body {
   color: var(--foreground);
 }
 
+html[lang="en"] body {
+  font-family: var(--font-raleway), sans-serif;
+}
+
 .thmanyah-swash {
   font-feature-settings: "salt" 1, "ss01" 1, "swsh" 1;
 }

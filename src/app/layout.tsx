@@ -61,7 +61,7 @@ export const metadata: Metadata = {
         alt: "Abdulrahman Awwad - Software Engineer",
       },
     ],
-    locale: "ar_SA",
+    locale: "en_US",
     type: "website",
   },
   twitter: {
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ar" dir="rtl" suppressHydrationWarning>
+    <html lang="en" dir="ltr" suppressHydrationWarning>
       <body className={`${thmanyahSans.variable} ${raleway.variable} ${thmanyahSans.className} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
