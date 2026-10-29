@@ -18,6 +18,20 @@ export default function ProjectsSection() {
           </div>
           <div className="grid gap-6 sm:grid-cols-2">
             
+            {/* Project: Parkly */}
+            <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col rounded-2xl border border-border bg-card p-6">
+              <h3 className="mb-2 font-semibold">{t("projects.parkly.name")}</h3>
+              <p className="mb-4 flex-1 text-sm text-muted-foreground">
+                {t("projects.parkly.desc")}
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">ASP.NET Core Web API</span>
+                <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Firebase Cloud Messaging</span>
+                <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">QR Code</span>
+                <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">RESTful APIs</span>
+              </div>
+            </div>
+
             {/* Project 1: AI Test Agent */}
             <div className="transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0 flex flex-col rounded-2xl border border-border bg-card p-6">
               <div className="mb-2 flex items-center justify-between">

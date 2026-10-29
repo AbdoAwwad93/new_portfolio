@@ -33,6 +33,22 @@ export const translations: Record<string, { ar: string; en: string }> = {
 
   // Experience
   "exp.heading": { ar: "الخبرات العملية", en: "Work Experience" },
+  "exp.parkly.name": { ar: "Parkly", en: "Parkly" },
+  "exp.parkly.role": { ar: "مهندس Backend مستقل", en: "Freelance Backend Developer" },
+  "exp.parkly.date": { ar: "أغسطس 2026 – أكتوبر 2026", en: "August 2026 – October 2026" },
+  "exp.parkly.project": { ar: "منصة إدارة مواقف السيارات والحجوزات – ASP.NET Core Web API", en: "Parking Management & Reservation Platform – ASP.NET Core Web API" },
+  "exp.parkly.desc1": {
+    ar: "تطوير واجهات RESTful API لاستكشاف مواقف السيارات والبحث عنها، وتقديم التوصيات، وإدارة الحجوزات، ولوحات تحكم المسؤولين والمالكين.",
+    en: "Developed RESTful APIs for parking discovery, search, recommendations, reservation management, and Admin & owner dashboards."
+  },
+  "exp.parkly.desc2": {
+    ar: "تنفيذ التحقق من الدخول باستخدام رموز QR، ونتائج بحث مقسمة إلى صفحات، وإشعارات عبر Firebase Cloud Messaging (FCM).",
+    en: "Implemented QR-code-based access validation, paginated search results, and Firebase Cloud Messaging (FCM) push notifications."
+  },
+  "exp.parkly.desc3": {
+    ar: "تحسين قابلية صيانة النظام عبر معالجة مركزية للاستثناءات، وتسجيل منظم للأحداث، ومعمارية خدمات معيارية.",
+    en: "Improved backend maintainability through centralized exception handling, structured logging, and modular service architecture."
+  },
   "exp.nova.name": { ar: "Nova Solutions", en: "Nova Solutions" },
   "exp.nova.role": { ar: "مهندس برمجيات (Backend Developer)", en: "Backend Developer" },
   "exp.nova.date": { ar: "يونيو 2025 – الحالي", en: "June 2025 – Present" },
@@ -93,6 +109,11 @@ export const translations: Record<string, { ar: string; en: string }> = {
   // Projects
   "projects.heading": { ar: "أبرز المشاريع", en: "Featured Projects" },
   "projects.subtitle": { ar: "مجموعة من التطبيقات والأنظمة التي قمت بتطويرها.", en: "A collection of applications and systems I have developed." },
+  "projects.parkly.name": { ar: "Parkly – منصة إدارة مواقف السيارات والحجوزات", en: "Parkly – Parking Management & Reservation Platform" },
+  "projects.parkly.desc": {
+    ar: "تطوير واجهات RESTful API لاستكشاف مواقف السيارات والبحث عنها، وتقديم التوصيات، وإدارة الحجوزات، ولوحات تحكم المسؤولين والمالكين. تنفيذ التحقق من الدخول باستخدام رموز QR، ونتائج بحث مقسمة إلى صفحات، وإشعارات عبر Firebase Cloud Messaging (FCM). تحسين قابلية صيانة النظام عبر معالجة مركزية للاستثناءات، وتسجيل منظم للأحداث، ومعمارية خدمات معيارية.",
+    en: "Developed RESTful APIs for parking discovery, search, recommendations, reservation management, and Admin & owner dashboards. Implemented QR-code-based access validation, paginated search results, and Firebase Cloud Messaging (FCM) push notifications. Improved backend maintainability through centralized exception handling, structured logging, and modular service architecture."
+  },
   "projects.aitest.name": { ar: "AI Test Agent", en: "AI Test Agent" },
   "projects.aitest.desc": {
     ar: "وكيل ذكاء اصطناعي لاختبار قصص المستخدم. يحلل القصة المكتوبة بلغة طبيعية ويحولها إلى اختبارات واجهة مستخدم (UI) قابلة للتنفيذ آلياً باستخدام Playwright، مع التقاط لقطات شاشة وتوليد تقارير مرئية. يدعم المهام غير المتزامنة وتحديثات التقدم المباشرة.",

@@ -41,6 +41,40 @@ export default function ExperienceSection() {
           </div>
           <div className="group/timeline flex data-[orientation=horizontal]:w-full data-[orientation=horizontal]:flex-row data-[orientation=vertical]:flex-col mx-auto max-w-3xl" data-orientation="vertical" data-slot="timeline">
 
+            {/* Experience 1: Parkly */}
+            <div className="group/timeline-item relative flex flex-1 flex-col gap-0.5 group-data-[orientation=vertical]/timeline:ms-8 group-data-[orientation=horizontal]/timeline:mt-8 group-data-[orientation=horizontal]/timeline:not-last:pe-8 group-data-[orientation=vertical]/timeline:not-last:pb-6 has-[+[data-completed]]:**:data-[slot=timeline-separator]:bg-primary transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0" data-completed="true" data-slot="timeline-item">
+              <div className="" data-slot="timeline-header">
+                <div className="flex flex-wrap items-center gap-3">
+                  <span className="flex size-9 items-center justify-center rounded-full border border-border bg-card text-sm font-semibold">P</span><span className="font-semibold">{t("exp.parkly.name")}</span>
+                </div>
+                <h3 className="font-medium mt-3 text-base" data-slot="timeline-title">
+                  {t("exp.parkly.role")}
+                </h3>
+                <div className="mt-1 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-foreground">
+                  <span className="inline-flex items-center gap-1">{calendarIcon}{t("exp.parkly.date")}</span>
+                </div>
+              </div>
+              {timelineIndicator}
+              {timelineSeparator}
+              <div className="text-muted-foreground text-sm mt-3 max-w-2xl" data-slot="timeline-content">
+                <div className="mt-4 rounded-xl border border-border bg-card p-4">
+                  <p className="mb-2 text-sm font-semibold text-foreground">
+                    {t("exp.parkly.project")}
+                  </p>
+                  <ul className="list-disc space-y-1.5 ps-4">
+                    <li>{t("exp.parkly.desc1")}</li>
+                    <li>{t("exp.parkly.desc2")}</li>
+                    <li>{t("exp.parkly.desc3")}</li>
+                  </ul>
+                </div>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">ASP.NET Core Web API</span>
+                  <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">Firebase Cloud Messaging</span>
+                  <span data-slot="badge" className="inline-flex items-center rounded-md border border-border bg-muted/60 px-2.5 py-1 text-xs font-medium text-muted-foreground" dir="ltr">QR Code</span>
+                </div>
+              </div>
+            </div>
+
             {/* Experience 1: Nova Solutions */}
             <div className="group/timeline-item relative flex flex-1 flex-col gap-0.5 group-data-[orientation=vertical]/timeline:ms-8 group-data-[orientation=horizontal]/timeline:mt-8 group-data-[orientation=horizontal]/timeline:not-last:pe-8 group-data-[orientation=vertical]/timeline:not-last:pb-6 has-[+[data-completed]]:**:data-[slot=timeline-separator]:bg-primary transition-all duration-500 ease-out motion-reduce:duration-300 opacity-100 translate-y-0 motion-reduce:translate-y-0" data-completed="true" data-slot="timeline-item">
               <div className="" data-slot="timeline-header">
